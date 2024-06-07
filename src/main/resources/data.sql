@@ -1,0 +1,19 @@
+DELETE FROM TRANSACOES;
+
+DELETE FROM CARTEIRAS;
+
+INSERT INTO
+    CARTEIRAS(
+        ID, NOME_COMPLETO, CPF_CNPJ, EMAIL, "SENHA", "TIPO", SALDO
+    )
+VALUES(
+    1, 'Joao - User', 12345678900, 'joao@teste.com', '123456', 1, 1000.00
+);
+
+INSERT INTO
+    CARTEIRAS(
+        ID, NOME_COMPLETO, CPF_CNPJ, EMAIL, "SENHA", "TIPO", SALDO
+    )
+VALUES(
+    2, 'Maria - Lojista', 12345678901, 'maria@teste.com', '123456', 2, 1000.00
+);
